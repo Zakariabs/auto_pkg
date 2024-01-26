@@ -1,6 +1,3 @@
-I see, thank you for pointing that out. Here's the updated README with the missing lines:
-
-```markdown
 # Auto Package for ROS2
 
 This package provides a simple way to control a robot's navigation in ROS2 using the `nav2_simple_commander` library.
