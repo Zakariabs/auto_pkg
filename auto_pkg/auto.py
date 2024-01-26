@@ -33,7 +33,21 @@ def main():
     rclpy.init()
 
     rc = BasicNavigator()
+    
+    #from rclpy.qos import QoSProfile, ReliabilityPolicy
+    #from std_msgs.msg import String  # Replace with the actual message type
 
+def main():
+    """
+    This is the main function that initializes the ROS2 node, creates a publisher, sets the initial pose,
+    waits for Nav2 to become active, sends a goal to Nav2, and follows a list of waypoints.
+    """
+    rclpy.init()
+
+    rc = BasicNavigator()
+
+
+    # Rest of your code...
     #set initial pose 
     # tb3 gazebo x start position -1.979794
     # tb3 gazebo y start position = -0.499868
@@ -58,6 +72,7 @@ def main():
     num_coords = 20
     random_coords = []
 
+    # generate random coordinates
     for _ in range(num_coords):
         random_x = r.uniform(-6.0, 6.0)
         random_y = r.uniform(-11.0, 11.0)
@@ -68,8 +83,8 @@ def main():
     # ---- navigating through a multiple points. 
     wayppoints_list = [goal_pose1, goal_pose2, goal_pose3]
 
-    #rc.followWaypoints(wayppoints_list)
-    rc.followWaypoints(random_coords)
+    rc.followWaypoints(wayppoints_list) 
+    #rc.followWaypoints(random_coords)  # uncomment this to navigate through random coordinates
     while not rc.isTaskComplete():
         feedback = rc.getFeedback()
         #print(feedback)
@@ -81,6 +96,9 @@ def main():
     print(rc.getResult())
     rclpy.shutdown()
 
+
+if __name__ == '__main__':
+    main()
 
 if __name__ == '__main__':
     main()
