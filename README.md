@@ -85,8 +85,8 @@ Customize the parameters within the loop to generate random waypoints as needed.
 After setting waypoints, choose either the static or random mode and follow it with:
 
 ```python
-rc.followWaypoints(waypoints_list)  # Uncomment the appropriate line
-# rc.followWaypoints(random_coords)
+rc.followWaypoints(waypoints_list)  # Uncomment the appropriate line for static coords
+# rc.followWaypoints(random_coords) # Uncomment the appeopeiate line for random ranges
 ```
 
 Choose either the static or random mode based on your navigation requirements.
