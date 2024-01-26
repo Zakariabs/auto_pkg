@@ -11,13 +11,13 @@ This package provides a simple way to control a robot's navigation in ROS2 using
 
 ## Installation
 
-1. First, make sure you have ROS2 installed. You can follow the instructions [here](https://index.ros.org/doc/ros2/Installation/).
+1. First, make sure you have ROS2 installed. You can follow the instructions [here]([https://index.ros.org/doc/ros2/Installation/](https://docs.ros.org/en/humble/Installation.html)).
 
 2. Clone this repository into your ROS2 workspace. For example:
 
     ```bash
     cd ~/ros2_ws/src
-    git clone https://github.com/yourusername/auto_pkg.git
+    git clone https://github.com/zakariabs/auto_pkg.git
     ```
 
 3. Build the package:
@@ -54,7 +54,7 @@ This package provides a simple way to control a robot's navigation in ROS2 using
 
 ## Dependencies
 
-- ROS2 Foxy or later
+- ROS2 humble or later
 - nav2_simple_commander
 - geometry_msgs
 - tf_transformations
@@ -67,7 +67,7 @@ This package provides a simple way to control a robot's navigation in ROS2 using
 
     ```bash
     cd ~/ros2_ws/src
-    git clone https://github.com/yourusername/auto_pkg.git
+    git clone https://github.com/zakaria/auto_pkg.git
     ```
 
 3. Build the package:
