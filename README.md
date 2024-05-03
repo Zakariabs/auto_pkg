@@ -93,5 +93,5 @@ Choose either the static or random mode based on your navigation requirements.
 
 ## License
 
-This package is licensed under the [MIT License](LICENSE).
+This package is licensed under the [Apache-2.0](LICENSE).
 ```
