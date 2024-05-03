@@ -5,7 +5,7 @@ This package provides a simple way to control a robot's navigation in ROS2 using
 ## Dependencies
 
 - ROS2 Foxy or later
-- nav2_simple_commander
+- Nav2Stack
 - geometry_msgs
 - tf_transformations
 
