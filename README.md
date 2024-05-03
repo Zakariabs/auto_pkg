@@ -6,8 +6,6 @@ This package provides a simple way to control a turtlebot3 mobile robot's naviga
 
 - ROS2 Foxy or later
 - Nav2Stack
-- geometry_msgs
-- tf_transformations
 
 ## Installation
 
