@@ -1,4 +1,4 @@
-# Auto Package for ROS2
+# Autonomous Navigation Package Using TURTLEBOT3 for ROS2
 
 This package provides a simple way to control a robot's navigation in ROS2 using the `nav2_simple_commander` library.
 
